@@ -1,0 +1,38 @@
+
+              /* THIS KEYFRAMES IS FOR FADEIN LEFT */
+
+@keyframes fadeInLeft {
+    from  { left:-150px; top:0px; opacity:0}
+    to{left:500px; top:0px;opacity:1}
+  }
+ 
+             /* THIS KEYFRAMES IS FOR FADE OUT LEFT */
+
+  @keyframes fadeOutLeft{
+    from  { left:500px; top:0px; opacity:1}
+    to{left:-150px; top:0px;opacity:0}      
+  }
+
+  
+    #wrapper{
+    width: 600px;
+    height: 500px;
+    position: relative;    
+  }
+  
+         /* THIS CLASS IS FOR FADE IN LEFT */
+  .fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  /* THIS CLASS IS FOR FADE OUT LEFT  */
+
+  .fadeOutLeft{
+    animation-name: fadeOutLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+      
+  }
+
